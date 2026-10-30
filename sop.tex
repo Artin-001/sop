@@ -1,0 +1,47 @@
+% Atmosphere template: Blank
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\AtmosphereFont}[2]{#2}
+\else
+\usepackage{fontspec}
+\newcommand{\AtmosphereFont}[2]{\begingroup\fontspec{#1}#2\endgroup}
+\fi
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\section*{\textbf{Statement of Purpose}}
+
+
+
+I am currently in the final year of my Master's degree in Electrical Engineering, specializing in Electronics and Integrated Circuits. Throughout my academic journey, I have developed a strong passion for electronic hardware, circuit design and optimization, and hardware programming. I particularly enjoy combining theoretical knowledge with practical engineering to understand, design, and improve electronic systems.
+
+
+
+During my studies, I developed a particular interest in digital design and hardware description languages, especially Verilog and VHDL, which I genuinely enjoyed using for hardware programming and digital system design. I also gained experience with electronic design and simulation tools, including Proteus, Advanced Design System (ADS), and Cadence, which allowed me to explore different aspects of circuit design, simulation, and analysis.
+
+
+
+Alongside electronics, I have developed a strong interest in Artificial Intelligence and computer programming. Through university courses in AI, I gained foundational knowledge of machine learning concepts, including multivariate linear regression and logistic regression. Implementing these algorithms in Python was particularly fascinating, as it allowed me to understand how mathematical models are translated into code and how machines learn from data to make predictions.
+
+
+
+I am particularly motivated by the intersection of hardware, software, and intelligent technologies, and the possibilities of combining these fields to develop innovative and efficient systems. Looking ahead, I aim to further strengthen my expertise in electronics, digital hardware design, embedded systems, programming, and AI-driven technologies while contributing to challenging engineering projects and continuously expanding my technical knowledge.
+
+\end{document}
