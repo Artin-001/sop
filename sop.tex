@@ -1,113 +1,35 @@
-% Atmosphere template: Blank
 \documentclass[12pt,a4paper]{article}
 \usepackage[margin=1in]{geometry}
-\usepackage{iftex}
-\ifPDFTeX
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\renewcommand{\sfdefault}{phv}
+\usepackage[scaled=0.95]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-\newcommand{\AtmosphereFont}[2]{#2}
-\else
-\usepackage{fontspec}
-\newcommand{\AtmosphereFont}[2]{\begingroup\fontspec{#1}#2\endgroup}
-\fi
-\usepackage{amsmath,amssymb}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{booktabs}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage[normalem]{ulem}
-\usepackage{xcolor}
-\usepackage{ragged2e}
-\setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
 
 \begin{document}
 
-\section*{\textbf{Statement of Purpose}}
-1
-STATEMENT OF PURPOSE
+\begin{center}
+    \textbf{STATEMENT OF PURPOSE}
+\end{center}
+
 Dear Members of the Admissions Committee,
-Throughout my academic journey in Electrical Engineering, I have developed a strong
-interest in understanding how electronic systems operate, how their circuits are analyzed,
-and how they can be implemented and optimized to address practical technological
-challenges. I am currently completing my Master's degree in Electrical Engineering,
-specializing in Integrated Circuits, where I have gained academic experience in electronic
-circuit analysis, analog and digital electronics, digital hardware development, and integrated
-circuit technologies. My primary academic interests include integrated circuit design at both
-the gate and transistor levels, particularly using hardware description languages such as
-Verilog and VHDL with Xilinx tools, as well as Cadence tools for circuit implementation,
-simulation, and physical layout. I am also interested in embedded systems and the broader
-applications of electronic circuits in modern engineering. I am motivated to expand my
-knowledge in these areas and develop the practical skills necessary to pursue a career in the
-electronics industry.
-During my undergraduate and graduate studies, I developed a particular interest in
-electronic circuit analysis, printed circuit board (PCB) development, microcontroller-based
-systems, and integrated circuits. Courses such as Electronics II strengthened my
-understanding of electronic components and circuit behavior, while Telecommunications
-Circuits and Radio Frequency Integrated Circuits (RFIC) introduced me to different aspects of
-communication and radio-frequency systems. Through these courses, I was also introduced
-to the Advanced Design System (ADS) environment and its applications in RF and
-telecommunications engineering. Studying radio-frequency integrated circuits particularly
-sparked my interest in this field. I find RF electronics an interesting area of engineering, and
-I look forward to learning more about radio-frequency circuits, their applications, and the
-technologies involved in their development in the future.
-My interest in embedded systems developed further through Digital Systems Laboratory II,
-where I worked with Proteus simulation software and AVR microcontrollers programmed in C.
-This experience introduced me to microcontroller-based system development and the
-practical relationship between hardware and software. Furthermore, working on projects
-involving platforms such as Arduino and Raspberry Pi allowed me to explore embedded
-programming and gain a better understanding of how electronic components and
-programmable devices interact within larger systems. These experiences strengthened my
-interest in embedded technologies and encouraged me to explore their applications further.
-Another important aspect of my academic experience has been digital hardware
-development using hardware description languages, particularly Verilog and VHDL. Through
-my coursework and laboratory activities, I worked with Xilinx development tools and gained
-experience implementing digital hardware components. One particularly interesting aspect
-of this experience involved working with CPU components at both behavioral and gate
-levels. Exploring how processor components can be represented and implemented at
-different abstraction levels strongly sparked my interest in digital hardware and integrated
-circuit technologies. It also encouraged me to explore the relationship between hardware
-descriptions, digital logic, and lower-level circuit implementations. Looking ahead, I am
-particularly interested in developing practical experience with FPGA development boards by
-writing synthesizable Verilog and VHDL descriptions, implementing digital hardware, and
-2
-testing its functionality on physical FPGA platforms using Xilinx tools. Furthermore, I would
-like to deepen my understanding of the broader IC implementation process by exploring how
-verified digital designs can progress towards transistor-level implementation, simulation,
-and physical layout using professional tools such as Cadence. I see this as an opportunity to
-connect digital hardware development with integrated circuit implementation and
-strengthen my understanding of the different stages involved in the process.
-Another area of my academic experience has been digital system testability and fault
-tolerance. Through my Digital Systems Testability coursework, I studied concepts such as
-observability and controllability, as well as the D-algorithm, and how these techniques can
-be applied to generate and optimize test vectors for testing digital circuits. We were also
-introduced to more advanced computer-aided test generation algorithms, which can offer
-improved efficiency and performance compared to traditional approaches such as the
-D-algorithm. As part of this course, I completed a project involving a gate-level circuit, where
-I successfully implemented observability and controllability techniques using Python
-programming. This experience helped me understand the importance of testability in digital
-circuit verification and the methods used to identify and address potential hardware faults.
-We also studied fault tolerance in digital systems, which introduced me to approaches for
-improving hardware reliability. Although my main interests lie in electronic circuit and
-hardware development, I would also welcome the opportunity to expand my knowledge of
-digital system testability, fault tolerance, and advanced testing methodologies.
-I believe that pursuing further studies in an electronics-related field would provide me with
-an excellent opportunity to strengthen my theoretical understanding while developing more
-advanced practical engineering skills. I am particularly interested in an academic
-environment that combines fundamental engineering knowledge with practical exposure to
-electronic circuits, integrated circuits, embedded systems, and related technologies. My goal
-is to build upon my existing background in Electrical Engineering, broaden my technical
-expertise, and prepare for a professional career in the electronics industry, where I hope to
-contribute to the development and improvement of modern electronic systems and practical
-engineering solutions.
-It would be an honor to continue my academic journey at your university and become a
-student of your dedicated professors. I believe that learning from their knowledge and
-experience would provide me with valuable guidance, help broaden my academic interests,
-and allow me to develop a deeper understanding of the fields I wish to pursue. I look forward
-to the opportunity to further develop my abilities and contribute positively to your academic
-community.
+
+Throughout my studies in Electrical Engineering, I have become interested in how electronic systems operate, how their circuits are analyzed, and how hardware can be implemented and tested. I am currently completing a Master's degree in Electrical Engineering, specializing in Integrated Circuits. My academic interests include analog and digital electronics, integrated circuit design at gate and transistor levels, embedded systems, and digital hardware development. I am particularly interested in using Verilog and VHDL with Xilinx tools to describe and implement digital hardware, as well as learning more about the IC implementation process, including circuit simulation and physical layout with Cadence.
+
+Courses such as Electronics II strengthened my understanding of electronic components and circuit behavior. Telecommunications Circuits and Radio Frequency Integrated Circuits (RFIC) introduced me to communication and radio-frequency systems, and familiarized me with the Advanced Design System (ADS) environment. The RFIC course particularly sparked my interest in radio-frequency electronics. I find this field compelling and would welcome the opportunity to deepen my understanding of RF circuits and their applications through further study.
+
+My interest in embedded systems grew through Digital Systems Laboratory II, where I used Proteus to work with AVR microcontrollers programmed in C. This introduced me to microcontroller-based systems and the interaction between hardware and software. I also completed projects using Arduino and Raspberry Pi, which gave me further exposure to embedded programming and the practical use of programmable devices. These experiences encouraged my interest in embedded technologies and their applications.
+
+I have also gained experience with hardware description languages, particularly Verilog and VHDL, using Xilinx development tools. In my coursework, I worked on CPU components at both behavioral and gate levels. Studying how processor components can be represented at different abstraction levels strongly sparked my interest in digital hardware and integrated circuits. I would now like to extend this experience by learning to create synthesizable hardware descriptions, implement and test them on physical FPGA boards, and use Xilinx tools more extensively. In the longer term, I hope to understand how verified digital designs can progress through IC implementation, including transistor-level realization, simulation, and physical layout using tools such as Cadence.
+
+Digital system testability and fault tolerance have also been part of my academic experience. In my Digital Systems Testability course, I studied observability, controllability, the D-algorithm, and more advanced computer-aided test-generation methods that can improve on traditional approaches in efficiency and performance. For a course project, I used Python to implement observability and controllability techniques on a gate-level circuit. We also studied fault tolerance in digital systems. While my main interests lie in electronic circuits and hardware development, I would be glad to broaden my knowledge of testability, fault tolerance, and related verification methods.
+
+I hope to pursue further studies in an environment that combines strong engineering fundamentals with opportunities to deepen practical knowledge of electronic circuits, integrated circuits, embedded systems, or related technologies. Building on my background, I aim to broaden my technical abilities and prepare for a professional career in the electronics industry, contributing to the development and improvement of practical electronic systems.
+
+It would be an honor to continue my academic journey at your university and learn from your dedicated professors. Their knowledge and guidance would help me broaden my interests, deepen my understanding, and develop the skills needed for my future career. I would welcome the opportunity to contribute positively to your academic community.
+
 Thank you for considering my application.
+
 \end{document}
